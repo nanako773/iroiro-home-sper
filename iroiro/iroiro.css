@@ -1,0 +1,96 @@
+.nonver1 a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.nonver2{
+    color: green;
+    
+}
+
+.nonver2 p{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.nonver3{
+    color: green;
+    font-size: 10;
+}
+.nonver4 a{
+    color:green;
+    font-size:10;
+}
+
+.accordion-button{
+    background-color: green !important;
+    color: white !important;
+    font-size: 2em !important;
+}
+
+
+.nonver5{
+    display: flex;
+}
+
+.nonver6{
+    font-size: 0.9em;
+}
+
+
+
+home a{
+    font-family: 'Arial','Courier','メイリオ',sans-serif;
+    line-height: 2;
+    font-size: 3em;
+}
+
+.current-version {
+    /* 現在のバージョン番号を保持するクラス */
+    display: none; /* 画面には表示しない */
+}
+
+
+/* 基本スタイル */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 2s ease-in-out;
+}
+
+/* <a>タグの共通スタイル */
+.message a {
+    display: block; /* <a>タグをブロック要素にする */
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none; /* リンクの下線を消す */
+}
+
+/* 時間帯ごとの背景色 */
+.dawn { background-color: #f7d1ba; }
+.morning { background-color: #87ceeb; }
+.noon { background-color: #4682b4; }
+.afternoon { background-color: #b0e0e6; }
+.evening { background-color: #ff7f50; }
+.dusk { background-color: #483d8b; }
+.night { background-color: #000033; }
+
+/* 時間帯ごとの文字色 */
+.dawn .message { color: #5a3c26; }
+.morning .message { color: #2e8b57; }
+.noon .message { color: #f0f8ff; }
+.afternoon .message { color: #008b8b; }
+.evening .message { color: #a52a2a; }
+.dusk .message { color: #dcdcdc; }
+.night .message { color: #e0ffff; }
+
+
+
+body p{
+    color: white;
+}
+
+body h1{
+    color: white;
+}

@@ -1,0 +1,10 @@
+home a{
+    font-family: 'Arial','Courier','メイリオ',sans-serif;
+    line-height: 2;
+    font-size: 3em;
+}
+
+.current-version {
+    /* 現在のバージョン番号を保持するクラス */
+    display: none; /* 画面には表示しない */
+}

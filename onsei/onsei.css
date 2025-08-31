@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+.player-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.play-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.pause-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+video {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+home a{
+    font-family: 'Arial','Courier','メイリオ',sans-serif;
+    line-height: 2;
+    font-size: 3em;
+}
+
+.current-version {
+    /* 現在のバージョン番号を保持するクラス */
+    display: none; /* 画面には表示しない */
+}
