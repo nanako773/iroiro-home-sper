@@ -4,9 +4,9 @@
 
             // --- パスワードと遷移先をセットで定義します ---
             const passwordMap = {
-                "kinenn": "../kinenn/kinenn.html", 
-                "youtubeacount": "https://youtube.com/@なぎなチャンネル",
-                "kannri-nanaki[": "../kannri/kannri.html" 
+                "key": "key.html", 
+                "": "",
+                "": "" 
             };
             
             // 入力されたパスワードがオブジェクトのキーに存在するかチェック
