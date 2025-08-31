@@ -60,3 +60,39 @@ body p{
 body h1{
     color: white;
 }
+
+
+
+.notification-bar {
+    /* 画面上部に固定 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /* 見た目の設定 */
+    background-color: #ffcc00; /* 背景色 */
+    color: #333; /* 文字色 */
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none; /* 下線を消す */
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1000; /* 他の要素より前面に表示 */
+}
+
+/* ホバー時のスタイル */
+.notification-bar:hover {
+    background-color: #e6b800;
+}
+
+body {
+    /* 通知バーとコンテンツが重ならないように、本文の先頭に余白を設ける */
+    padding-top: 50px;
+}
+
+
+/* リンクにマウスを重ねたときにカーソルを指の形（pointer）にする */
+a {
+  cursor: pointer;
+}

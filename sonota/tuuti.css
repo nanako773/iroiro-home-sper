@@ -1,0 +1,9 @@
+/* リンクにマウスを重ねたときにカーソルを指の形（pointer）にする */
+a {
+  cursor: pointer;
+}
+
+/* ボタンにマウスを重ねたときにカスタムカーソルを表示する */
+button:hover {
+  cursor: url('images/custom-hand.png'), auto;
+}

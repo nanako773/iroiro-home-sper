@@ -94,3 +94,18 @@ body p{
 body h1{
     color: white;
 }
+
+
+/* リンクにマウスを重ねたときにカーソルを指の形（pointer）にする */
+a {
+  cursor: url('../cusol/koisi-rink.ani'), auto;
+}
+
+/* ボタンにマウスを重ねたときにカスタムカーソルを表示する */
+button:hover {
+  cursor: url('../cusol/koisi-rink.ani'), auto;
+}
+
+body {
+  cursor: url('../cusol/reimu-tuujixyou.ani'), auto;
+}
