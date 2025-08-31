@@ -4,9 +4,9 @@
 
             // --- パスワードと遷移先をセットで定義します ---
             const passwordMap = {
-                "nekosuki": "cat_page.html",   // パスワード "nekosuki" なら cat_page.html へ
-                "inuzuki": "dog_page.html",    // パスワード "inuzuki" なら dog_page.html へ
-                "sakanasuki": "fish_page.html" // パスワード "sakanasuki" なら fish_page.html へ
+                "kinenn": "../kinenn/kinenn.html", 
+                "youtubeacount": "https://youtube.com/@なぎなチャンネル",
+                "sakanasuki": "fish_page.html" 
             };
             
             // 入力されたパスワードがオブジェクトのキーに存在するかチェック
